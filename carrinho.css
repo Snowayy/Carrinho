@@ -1,0 +1,203 @@
+body{
+
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+
+}
+
+main h2, main h1{
+
+    text-decoration:underline;
+    text-decoration-color: #a347ff;
+    font-size: 2em;
+
+}
+
+main{
+
+    margin: 20px;
+
+}
+
+header{
+
+    background-color: black;
+
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+header ul{
+
+    list-style: none;
+    display: flex;
+   
+    margin: 0;
+    align-items: center;
+
+
+}
+
+header ul li{
+
+    margin-right: 20px;
+    font-size: 24px;
+  
+}
+header ul li a{
+    text-decoration: none;
+    margin-top: 5%;
+    color: inherit;
+}
+
+header h2{
+
+    display: inline-block;
+    margin: 20px;
+
+}
+
+header img{
+
+    height: 60px;
+    width: 100px;
+
+}
+
+header a:hover{
+
+    text-decoration: underline;
+
+}
+
+.login{
+
+    background-color: #a347ff;
+    padding: 12px;
+    border-radius: 5px;
+    position:absolute;
+    right: 0;
+}
+
+.headerImage {
+
+    position:absolute;
+    left: 0;
+
+}
+
+hr{
+
+    margin: 0;
+    color: #a347ff;
+    background-color: #a347ff;
+    height: 2px;
+
+}
+
+main {
+
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #a347ff;
+
+}
+
+table{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+th, td{
+
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #a347ff;
+
+}
+
+th{
+
+    font-weight: bold;
+
+}
+
+input.quantidade{
+
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+button.removerCriatura{
+
+    background-color: #a347ff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+
+button.removerCriatura:hover {
+    text-decoration: underline;
+}
+
+.totalFinal{
+
+    text-align: right;
+    margin-top: 20px;
+
+}
+
+
+footer{
+
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20;
+    flex-wrap: wrap;
+    margin-top: 11%;
+
+}
+
+footer a{
+
+    color: inherit;
+    text-decoration: inherit;
+
+}
+
+footer ul{
+
+    list-style: none;
+    
+}
+
+footer img {
+
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    justify-content: end;
+
+}
+
+.footerSection{
+
+    flex-basis: 50%;
+
+}

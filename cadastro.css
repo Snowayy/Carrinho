@@ -1,0 +1,181 @@
+
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+header{
+
+    background-color: black;
+
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+header ul{
+
+    list-style: none;
+    display: flex;
+   
+    margin: 0;
+    align-items: center;
+
+
+}
+
+header ul li{
+
+    margin-right: 20px;
+    font-size: 24px;
+  
+}
+header ul li a{
+    text-decoration: none;
+    margin-top: 5%;
+    color: inherit;
+}
+
+header h2{
+
+    display: inline-block;
+    margin: 20px;
+
+}
+
+header img{
+
+    height: 60px;
+    width: 100px;
+
+}
+
+header a:hover{
+
+    text-decoration: underline;
+
+}
+
+.headerImage {
+
+    position:absolute;
+    left: 0;
+
+}
+
+hr{
+
+    margin: 0;
+    color: #a347ff;
+    background-color: #a347ff;
+    height: 2px;
+
+}
+
+main{
+
+    margin: 20px;
+
+}
+
+.containerLogin{
+
+    display: flex; /* Define o contêiner como um flexbox */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+    justify-content: center;
+
+}
+
+.containerLogin input{
+
+    width: 100%;
+
+}
+
+.containerLogin form{
+
+    background-color: black;
+    border: 1px solid #a347ff;
+    border-radius: 8px; /* Arredonda os cantos dos cards */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para dar um efeito de elevação */
+    max-width: 300px; /* Define uma largura máxima para os cards */
+    text-align: center;
+
+}
+
+.containerLogin img{
+
+    width: 130px;
+    height: 100px;
+
+}
+
+.containerLogin p {
+
+    margin: 0;
+
+}
+
+.btnLogin{
+
+    background-color: #a347ff;
+    color: white;
+    border: none;
+    margin: 10px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+
+}
+
+.btnLogin:hover{
+
+    text-decoration: underline;
+    background-color: #5e219b;
+
+}
+
+footer{
+
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20;
+    flex-wrap: wrap;
+    line-height: 20px;
+
+}
+
+footer a{
+
+    color: inherit;
+    text-decoration: inherit;
+
+}
+
+footer ul{
+
+    list-style: none;
+    
+}
+
+footer img {
+
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    justify-content: end;
+
+}

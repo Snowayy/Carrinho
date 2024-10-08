@@ -1,0 +1,215 @@
+body{
+
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+
+}
+
+main h2, main h1{
+
+    text-decoration:underline;
+    text-decoration-color: #a347ff;
+    font-size: 2em;
+
+}
+
+main{
+
+    margin: 20px;
+
+}
+
+header{
+
+    background-color: black;
+
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+header ul{
+
+    list-style: none;
+    display: flex;
+   
+    margin: 0;
+    align-items: center;
+
+
+}
+
+header ul li{
+
+    margin-right: 20px;
+    font-size: 24px;
+  
+}
+header ul li a{
+    text-decoration: none;
+    margin-top: 5%;
+    color: inherit;
+}
+
+header h2{
+
+    display: inline-block;
+    margin: 20px;
+
+}
+
+header img{
+
+    height: 60px;
+    width: 100px;
+
+}
+
+header a:hover{
+
+    text-decoration: underline;
+
+}
+
+.login{
+
+    background-color: #a347ff;
+    padding: 12px;
+    border-radius: 5px;
+    position:absolute;
+    right: 0;
+}
+
+.headerImage {
+
+    position:absolute;
+    left: 0;
+
+}
+
+hr{
+
+    margin: 0;
+    color: #a347ff;
+    background-color: #a347ff;
+    height: 2px;
+
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    display: flex; /* Define o contêiner como um flexbox */
+    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+    justify-content: center;
+}
+
+.container img{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+
+}
+
+/* Estilo para cada card */
+.card {
+    background-color: black;
+    border: 1px solid #a347ff;
+    border-radius: 8px; /* Arredonda os cantos dos cards */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para dar um efeito de elevação */
+    flex: 1; /* Permite que os cards cresçam igualmente */
+    max-width: 300px; /* Define uma largura máxima para os cards */
+    margin-bottom: 40px;
+}
+
+/* Estilo para o título dos cards */
+.card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+/*Card ameaças da realidade*/
+.containerAmeacas {
+    display: flex; /* Define o contêiner como um flexbox */
+    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+    justify-content: center;
+}
+
+.cardAmeacas:hover{
+
+    box-shadow: 12px 10px 20px #a347ff;
+
+}
+
+.containerAmeacas img{
+
+    max-height: 300px;
+    max-width: 300px;
+
+}
+
+/* Estilo para cada card */
+.cardAmeacas {
+    background-color: black;
+    border: 1px solid #a347ff;
+    border-radius: 8px; /* Arredonda os cantos dos cards */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para dar um efeito de elevação */
+    flex: 1; /* Permite que os cards cresçam igualmente */
+    max-width: 300px; /* Define uma largura máxima para os cards */
+    margin-bottom: 40px;
+}
+
+/* Estilo para o título dos cards */
+.cardAmeacas h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+footer{
+
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20;
+    flex-wrap: wrap;
+
+}
+
+footer a{
+
+    color: inherit;
+    text-decoration: inherit;
+
+}
+
+footer ul{
+
+    list-style: none;
+    
+}
+
+footer img {
+
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    justify-content: end;
+
+}
+
+.footerSection{
+
+    flex-basis: 50%;
+
+}
