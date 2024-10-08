@@ -116,6 +116,13 @@ table{
 
 }
 
+table td img{
+
+    max-width: 70px;
+    max-height: 70px;
+
+}
+
 th, td{
 
     padding: 10px;
@@ -157,9 +164,27 @@ button.removerCriatura:hover {
 
     text-align: right;
     margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
 
 }
 
+button.comprar{
+
+    background-color: #a347ff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+button.comprar:hover {
+    text-decoration: underline;
+}
 
 footer{
 
